@@ -1,0 +1,443 @@
+:root {
+    /* Primary */
+    --Dark-Blue-intro: hsl(217, 28%, 15%);
+    --Dark-Blue-main: hsl(218, 28%, 13%);
+    --Dark-Blue-footer: hsl(216, 53%, 9%);
+    --Dark-Blue-testimonials: hsl(219, 30%, 18%);
+
+    /* Accent */
+    --Cyan-inside: hsl(176, 68%, 64%);
+    --Blue-inside: hsl(198, 60%, 50%);
+
+    /* Neutral */
+    --White: hsl(0, 0%, 100%);
+}
+
+body {
+    font-size: 14px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    color: var(--White);
+    margin: 0;
+}
+
+button {
+    background-image: linear-gradient(to right, var(--Cyan-inside), var(--Blue-inside));
+    color: var(--White);
+    border: none;
+}
+
+.navbar {
+    background-color: var(--Dark-Blue-testimonials);
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+
+.navbar > img {
+    margin-left: 50px;
+}
+
+.navbar > div {
+    float: right;
+    margin-top: 15px;
+    margin-right: 25px;
+}
+
+.navbar > div > span {
+    margin-right: 30px;
+}
+
+.header-container {
+    background-color: var(--Dark-Blue-testimonials);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: contain;
+    text-align: center;
+}
+
+.header-container-intro {
+    width: 50%;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.header-container-intro > img {
+    width: 100%;
+    height: auto;
+}
+
+.header-container-intro > div {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.header-container-intro > button {
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 30px;
+    margin-bottom: 50px;
+}
+
+.text-title {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 45px;
+}
+
+.text-body {
+    line-height: 20px;
+}
+
+.body-container {
+    background-color: var(--Dark-Blue-main);
+}
+
+.body-container > div {
+    width: 85%;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.body-container-head {
+    text-align: center;
+}
+
+.body-container-head > div {
+    width: 35%;
+    display: inline-block;
+    margin: 25px;
+}
+
+.card-title {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 32px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.card-body {
+    font-weight: 200;
+    font-size: 11px;
+}
+
+.body-container-productive {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.body-container-productive > div {
+    display: inline-block;
+    width: 49%;
+    vertical-align: middle;
+}
+
+.body-container-productive-img > img {
+    width: 100%;
+    height: auto;
+}
+
+.body-container-productive-text > div {
+    margin-bottom: 15px;
+}
+
+.body-container-productive-text > a {
+    display: inline-block;
+    vertical-align: baseline;
+    color: var(--Cyan-inside);
+}
+
+.body-container-content {
+    background-image: url("./images/bg-quotes.png");
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+
+.body-container-content-element {
+    background-color: var(--Dark-Blue-testimonials);
+    display: inline-block;
+    width: 30%;
+    margin: 30px 10px 10px 10px;
+}
+
+.body-container-content-element > div {
+    width: 80%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+
+.body-container-content-element-profile > div {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 10px;
+    font-weight: 400;
+    border-radius: 5px;
+}
+
+.body-container-content-element-profile > div > img {
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    font-weight: 700;
+}
+
+h4 {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.body-container-footer {
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px !important;
+    background-color: var(--Dark-Blue-testimonials);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.body-container-footer > div {
+    width: 80%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+.body-container-footer > div > h1 {
+    padding-top: 30px;
+}
+
+.body-container-footer > input {
+    width: 45%;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 30px;
+}
+
+.body-container-footer > button {
+    width: 20%;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 30px;
+}
+
+::placeholder {
+    color: grey;
+    padding-left: 20px;
+}
+
+.footer-container {
+    background-color: var(--Dark-Blue-footer);
+    padding-bottom: 100px;
+}
+
+.footer-container > div {
+    width: 90%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-container > div > img {
+    padding-top: 75px;
+}
+
+.footer-container-content {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.footer-container-content > div {
+    display: inline-block;
+    width: 15%;
+    vertical-align: top;
+}
+
+.footer-container-content > div > div {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.footer-container-content-info {
+    width: 50% !important;
+}
+
+.footer-container-content-info-element {
+    display: inline-block;
+    width: 45%;
+    vertical-align: top;
+    margin-right: 10px;
+}
+
+.footer-container-content-info-element > div {
+    vertical-align: top;
+}
+
+.footer-container-content-info-element-group {
+    margin-bottom: 20px;
+}
+
+.info-icon {
+    display: inline-block;
+    padding-right: 10px;
+    width: 10%;
+}
+
+.info-text {
+    width: 75%;
+    display: inline-block;
+    padding-right: 10px;
+}
+
+.footer-icon {
+    font-size: 14px;
+    border-radius: 50%;
+    border: solid white;
+    border-width: thin;
+    color: white;
+    line-height: 2em;
+    width: 2em;
+    height: 2em;
+    text-align: center;
+    display: inline-block;
+    transition:0.2s;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 15px;
+}
+
+.footer-icon:hover {
+    border: solid var(--Cyan-inside);
+    border-width: thin;
+    color: var(--Cyan-inside);
+    background-color: var(--Dark-Blue-footer);
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 375px) {
+    .header-container {
+        background-image: url("./images/bg-curvy-mobile.svg");
+    }
+
+    .navbar > img {
+        margin-left: 20px;
+        width: 100px;
+    }
+
+    .navbar > div {
+        margin-top: 0px;
+        margin-right: 10px;
+        vertical-align: top;
+    }
+
+    .navbar > div > span {
+        margin-right: 10px;
+    }
+
+    .header-container-intro {
+        width: 80%;
+    }
+
+    .body-container-head > div {
+        width: 100%;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .body-container-productive > div {
+        width: 100%;
+    }
+
+    .body-container-productive-text > .text-title {
+        font-size: 18px;
+    }
+
+    .body-container-content-element {
+        width: 100%;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    h1 {
+        font-size: 18px;
+    }
+
+    .body-container-footer > input {
+        width: 90%;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .body-container-footer > button {
+        width: 90%;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .footer-container {
+        padding-bottom: 50px;
+    }
+
+    .footer-container > div {
+        width: 80%;
+    }
+
+    .footer-container-content > div {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .footer-container-content-info {
+        width: 100% !important;
+    }
+
+    .footer-container-content-info-element {
+        width: 100%;
+    }
+
+    .info-text {
+        width: 80%;
+    }
+
+    .footer-container-content-media {
+        margin-top: 40px;
+        text-align: center;
+    }
+
+    .footer-container-content-media > a {
+        display: inline-block;
+    }
+}
+
+@media only screen and (min-width: 376px) and (max-width: 1440px) {
+    .header-container {
+        background-image: url("./images/bg-curvy-desktop.svg");
+    }
+}

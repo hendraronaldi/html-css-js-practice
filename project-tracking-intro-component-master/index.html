@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="index.css" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Barlow Condensed' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Barlow' rel='stylesheet'>
+  
+  <title>Frontend Mentor | Project tracking intro component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <script src="index.js" type="text/javascript"></script>
+  <div class="bg-grey"></div>
+  <div class="navbar">
+    <div class="navbar-logo"><img src="./images/logo.svg" alt=""></div>
+    <div class="navbar-menu" id="nav-menu">
+      <div class="navbar-menu-element uppercase">Product</div>
+      <div class="navbar-menu-element uppercase">Features</div>
+      <div class="navbar-menu-element uppercase">Pricing</div>
+      <div class="navbar-menu-separator"></div>
+      <div class="navbar-menu-element navbar-menu-login uppercase">Login</div>
+    </div>
+    <div class="navbar-toggle">
+      <div class="navbar-toggle-menu" id="toggle-menu" onclick="toggle()"><img src="./images/icon-hamburger.svg" alt=""></div>
+      <div class="navbar-toggle-close" id="toggle-close" onclick="toggle()"><img src="./images/icon-close.svg" alt=""></div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="bg-img">
+      <img src="./images/illustration-devices.svg" alt="">
+    </div>
+    <div class="content">
+      <div class="content-text-header uppercase">
+        <span class="content-text-header-special">New</span><span class="header-secondary">Monograph Dashboard</span>
+      </div>
+      <div class="content-text-title uppercase">Powerful insights into your team</div>
+      <div class="content-text-body text-body">Project planning and time tracking for agile teams</div>
+      <div class="content-footer">
+        <div class="content-footer-btn"><button class="uppercase">Schedule a demo</button></div>
+        <div class="content-footer-text uppercase header-secondary">to see a preview</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>.
+    </p>
+  </footer> -->
+</body>
+</html>
